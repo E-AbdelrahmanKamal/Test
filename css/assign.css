@@ -1,0 +1,133 @@
+/* navgiation bar */
+.nav-bakground-rgba{
+    background-color: rgba(0, 0, 0, .01);
+}
+.position-nav{
+    left: 0;
+    right: 0;
+}
+/* header contact */
+.home-content{
+    background-color: rgba(0, 0, 0, .32);
+
+}
+
+.content-active{
+    background-image: url(../image/slideshow-1.jpg);
+}
+.background-2{
+    background-image: url(../image/slideshow-2.jpg);
+}
+
+.background-3{
+    background-image: url(../image/slideshow-3.jpg);
+}
+.nav-hover{
+    transition: .5s all ease-in-out;
+    
+}
+.nav-hover:hover{
+    color: brown !important;
+}
+/* about page */
+.h1-opacity{
+    opacity: 5%;
+    color: black;
+    font-size: 7rem;
+}
+.h2-center-text{
+    text-align: center;
+    border-bottom: solid black .19rem;
+}
+.layer-hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+.layer{
+    background-color: rgba(158, 12, 12, 0.372);
+    position: absolute;
+    bottom: 0;
+    height: 0%;
+    width: 100%;
+    transition: .7s all;
+}
+.item:hover .layer{
+    height: 100%;
+}
+.work-img{
+    width: 100%;
+    transition: 1s all;
+}
+.item img{
+    transition: 1s all;
+}
+.item:hover img{
+    transform: scale(1.2,1.2);
+}
+.h3-ourteam{
+    transition: .7s all;
+}
+.h3-ourteam:hover{
+    color: rgba(170, 61, 61, 0.671);
+}
+.btn-edit-contact-us{
+    padding: 1.01rem 1rem !important;
+}
+.div-text-ser h3{
+    transition: 1s all;
+}
+.div-text-ser h3:hover{
+    color:brown ;
+}
+/*Client  */
+/* .carsoul-btn{
+    background-color: bisque;
+    height: 50px;
+} */
+.carsoul-btn button{
+    width: 15px;
+    height: 15px;
+}
+.c-i-c{
+    background-color: #a6a6a6;
+}
+.c-i-c {
+    width: 50px;
+    height: 50px;
+    padding: 2rem 2rem;
+}
+/* contact */
+.text-hover-icon h3{
+    transition: 1s all;
+}
+.text-hover-icon:hover h3{
+    color: brown;
+}
+.inputs-contact{
+    line-height: 1;
+    padding: 14px 18px;
+    color: #a6a6a6;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+}
+.bg-lastpage{
+    background-image: url(../image/dotted-map.png);
+
+}
+#lastPage p{
+    transition: 1s all;
+}
+#lastPage p:hover{
+    color: brown;
+}
+.aroww-last-page{
+    background-color: rgb(221, 102, 102);
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 1.2rem 1.4rem;
+    color: white;
+    transition: 1s all;
+}
+.aroww-last-page:hover{
+    background-color: rgb(223, 47, 47);
+}
